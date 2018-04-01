@@ -113,6 +113,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.radio.log_prefix="modem_log_"
 endif
 
+# ModemService
+PRODUCT_COPY_FILES += \
+  device/google/taimen/whitelist_modemservice.xml:system/etc/sysconfig/whitelist_modemservice.xml
+
 #IMU calibration
 PRODUCT_PROPERTY_OVERRIDES += \
   persist.config.calibration_fac=/persist/sensors/calibration/calibration.xml
