@@ -17,5 +17,11 @@
 <resources>
     <!-- Whether to show a preference item for regulatory information in About phone -->
     <bool name="config_show_regulatory_info">false</bool>
+
+    <!-- Whether to show a preference item for mobile plan -->
+    <bool name="config_show_mobile_plan">false</bool>
+
+    <!-- Whether to disable eab provision -->
+    <bool name="config_is_eab_provisioned">false</bool>
 </resources>
 
